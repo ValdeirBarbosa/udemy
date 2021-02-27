@@ -6,7 +6,7 @@
 
  function divide(dividendo, divisor){
     //return dividendo / divisor;
-    return Math.floor(dividendo / divisor)
+    return Math.floor(dividendo / divisor) // aredondando 
  }
 
  console.log(divide(15,2))
