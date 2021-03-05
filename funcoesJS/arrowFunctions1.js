@@ -9,5 +9,5 @@ dobro = (a) => {
 dobro = a => 2 * a; //return implicito
 
 let ola = () => 'ola';
-ola1 = _ => 'ola' // possui um parametro 
+ola1 => 'ola' // possui um parametro 
 console.log(ola());
