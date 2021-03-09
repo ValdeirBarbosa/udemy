@@ -3,7 +3,8 @@
 
 
 function roundGrades(pont) {
-    if (pont < 38) {
+
+    if (pont < 38 || isNaN(pont) ) {
         return `${pont} Reprovado `
     }
     for (let x = 1; x < 4; ++x) {
@@ -13,8 +14,6 @@ function roundGrades(pont) {
         }
     }
     return `${pont} Aprovado`
-
-
 }
 
 console.log(roundGrades(38))  // 40
