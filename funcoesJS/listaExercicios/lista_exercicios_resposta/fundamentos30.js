@@ -17,6 +17,6 @@ function maiorMenor (vetor) {
     return [maior, menor]
 }
 
-vetor =  [10, 5, 7, 3, 1, 3, 11, 20, 6, 9]
+let vetor =  [10, 5, 7, 3, 1, 3, 11, 20, 6, 9]
 
 console.log(maiorMenor(vetor))
