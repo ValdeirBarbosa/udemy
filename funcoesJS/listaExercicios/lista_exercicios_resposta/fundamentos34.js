@@ -19,5 +19,3 @@ function verificacaoDeString (string1, string2) {
  }
 
  console.log(verificacaoDeString('abc','cba'))
-
- 
